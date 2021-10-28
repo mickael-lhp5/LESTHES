@@ -1,0 +1,210 @@
+body {
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: #F2F6E7;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #5B751A;
+    margin-top: 20px;
+}
+
+h2,
+.center {
+    padding: 15px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #5B751A;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+nav ul li :hover {
+    background-color: #F2F6E7;
+    color: #5B751A;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #F2F6E7;
+}
+
+.parallax {
+    background-image: url("img/parallax2.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleLeThe {
+    color: #5B751A;
+}
+
+.sectionThe {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.imgThe {
+    width: auto;
+    height: 300px;
+}
+
+.txtSectionThe {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.ingredient {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*------------------------------------------*/
+
+
+/*recette*/
+
+.imgRecette {
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+.recetteTitle {
+    color: #5B751A;
+}
+
+.cadre {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+td {
+    column-width: 350px;
+}
+
+.menu-aside {
+    position: fixed;
+    left: 15px;
+    top: 100px;
+    background-color: #F2F6E7;
+    border-radius: 15px;
+    padding-right: 20px;
+}
+
+#fil-ariane {
+    list-style-type: none;
+}
+
+#fil-ariane a {
+    text-decoration: none;
+    color: #5B751A;
+    font-size: 14px;
+}
+
+
+/*------------------------------------------*/
+
+
+/* Design concernant les pages ou Deguster.html */
+
+.image {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.petite-section {
+    text-align: center;
+    border-radius: 25px;
+    width: 300px;
+    height: 610px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 20px;
+    border: 1px solid #5B751A;
+}
+
+.description {
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ensemble-section {
+    display: flex;
+    justify-content: center;
+    color: #5B751A;
+}
+
+
+/*------------------------------------------*/
+
+
+/*Partie pour le footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #F2F6E7;
+    background-color: #5B751A;
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F2F6E7;
+}
+
+footer :hover {
+    cursor: pointer;
+    color: black;
+}
